@@ -36,18 +36,7 @@ const Projects = () => {
 
 
 
-            <div className='skills'>
-                <h2>my skills<span>.</span></h2>
-                <Row>
-                    <li className='btn'>HTML</li>
-                    <li className='btn'>JavaScript</li>
-                    <li className='btn'>React JS</li>
-                </Row>
-                <Row>
-                    <li className='btn'>CSS</li>
-                    <li className='btn'>Bootstrap</li>
-                </Row>
-            </div>
+            
         
         </Container>
     )

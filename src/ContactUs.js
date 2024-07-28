@@ -11,6 +11,10 @@ const ContactUs = () => {
         <>
         <Container className='contact'>
             <Row>
+                <Col md={6} lg={6} xs={12} className='contact-margin-col-img'>
+                    <img src={require("./Image/my_photo2.jpg")} alt='My-Photo' />
+                </Col>
+                
                 <Col lg={6} xs={12} md={6}>
                 <h1>get in touch<span>.</span></h1>
 
@@ -28,9 +32,6 @@ const ContactUs = () => {
                         <b>+20 1097182681</b>
                     </div>
                 
-                </Col>
-                <Col md={6} lg={6} xs={12} className='contact-margin-col-img'>
-                    <img src={require("./Image/my_photo2.jpg")} alt='My-Photo' />
                 </Col>
 
             </Row>

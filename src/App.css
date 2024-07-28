@@ -100,6 +100,35 @@
     padding: 40px;
 }
 
+.skills {
+    margin-top: 15vh;
+}
+
+.skills h2 {
+    text-transform: capitalize;
+    border-bottom: var(--hover) solid 3px;
+    padding: 10px 0;
+    width: max-content;
+}
+
+.skills h2 span {
+    color: var(--hover);
+}
+
+
+.skills .btn {
+    cursor: copy;
+    background-color: var(--hover);
+    color: #fff;
+    margin: 20px;
+    width: max-content;
+}
+
+.skills .btn:hover {
+    background-color: var(--main);
+    color: #fff;
+}
+
 /* projects */
 .projects {
     margin-top: 15vh;
@@ -157,35 +186,6 @@
 }
 .projects h3 span:hover {
     color: var(--hover);
-}
-
-.skills {
-    margin-top: 15vh;
-}
-
-.skills h2 {
-    text-transform: capitalize;
-    border-bottom: var(--hover) solid 3px;
-    padding: 10px 0;
-    width: max-content;
-}
-
-.skills h2 span {
-    color: var(--hover);
-}
-
-
-.skills .btn {
-    cursor: copy;
-    background-color: var(--hover);
-    color: #fff;
-    margin: 20px;
-    width: max-content;
-}
-
-.skills .btn:hover {
-    background-color: var(--main);
-    color: #fff;
 }
 
 /* contact */
