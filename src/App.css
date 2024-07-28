@@ -1,38 +1,95 @@
-.App {
-  text-align: center;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+    --hover: #34738d;
+    --secont-color: #8bc5d5;
+    --main: #294150d8;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* navbar */
+.navbar {
+    background-color: #8bc5d5;
+    box-shadow: 5px 2px 9px #9ee1f3;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navbar .link {
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    margin-right: 1rem;
+    transition: 0.7s ease-in;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar .link:focus {
+    color: var(--hover);
+    border-bottom: 2px var(--hover) solid;
+    width: max-content;
+} 
+
+/* homepage */
+.home {
+    margin-top: 15vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.home h5 {
+    font-weight: 400;
+    text-transform: capitalize;
+    color: var(--main);
+    letter-spacing: -1px;
+}
+
+.home .once-paragraphe-home {
+    font-size: 5rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 70px;
+    margin: 20px 0;
+}
+
+.home .once-paragraphe-home span {
+    color: var(--hover);
+}
+
+.home .twice-paragraphe-home {
+    color: var(--main);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.home .btn-about {
+    text-transform: capitalize;
+    border: 1px solid;
+    margin: 20px 10px 0 0;
+    font-weight: 500;
+    font-size: smaller;
+}
+
+.home .btn-about:hover {
+    background-color: var(--main);
+    color: #fff;
+}
+
+.home .btn-contact {
+    font-size: smaller;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 500;
+    background-color: var(--secont-color);
+    margin: 20px 10px 0 0;
+}
+
+.home .btn-contact:hover {
+    background-color: var(--hover);
+    color: #fff;
+}
+
+.home img {
+    width: 100%;
+    border-radius: 50%;
+    border: 1px solid var(--main);
+    padding: 40px;
 }
