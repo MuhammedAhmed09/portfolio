@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './NavBar';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './Home';
-import About from './About';
+import Projects from './Projects';
 import ContactUs from './ContactUs';
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
       <NavBar />
     <Routes>
       <Route path='/' element={<Home />}/>
-      <Route path='/About' element={<About />}/>
+      <Route path='/Projects' element={<Projects />}/>
       <Route path='/ContactUs' element={<ContactUs />}/>
     </Routes>
     </BrowserRouter>
