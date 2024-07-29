@@ -10,7 +10,7 @@ const Projects = () => {
             <Row className='up-projects'>
                 <Col xs={12} md={4} className='border-project'>
                 <img src={require("./Image/bandicam 2024-07-28 16-28-14-000.jpg")} alt='e-commerce'/>
-                <Link className='link' to="https://to-do-list-psi-ecru.vercel.app/"><h3>Validation Form <span><MdOutlineArrowOutward /></span></h3></Link>
+                <Link className='link' to="https://validation-form-tan.vercel.app/"><h3>Validation Form <span><MdOutlineArrowOutward /></span></h3></Link>
                 <p>Validate plate form in bootstrap , React JS and CSS.</p>
                 </Col>
                 <Col xs={12} md={7} className='border-project'>
