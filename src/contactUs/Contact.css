@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2, h5, h6 {
+    text-transform: capitalize;
+    color: #575857;
+    display: block;
+}
+
+.all-contact {
+
+    width: 100%;
+}
+
+Col {
+    width: 100%;
+}
+
+h2, .name, .email, .type, .message, .checkbox {
+    margin-bottom: 28px;
+}
+
+.name input, .email input {
+    width: 100%;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid #ccd0cf;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+input:hover {
+    border: 1px solid #87a8a2;
+}
+
+.all-contact .container {
+    background-color: #ffffff;
+    width: 100%;
+    border-radius: 10px;
+    padding: 30px 20px;
+}
+
+.message textarea {
+    height: 120px;
+    width: 100%;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid #ccd0cf;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.message textarea :hover {
+    border: 1px solid #87a8a2;
+}
+
+.checkbox input {
+    margin-right: 15px;
+}
+
+.submit input {
+    width: 100%;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid #ccd0cf;
+    padding: 0 10px;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #8bc5d5;
+    height: 46px;
+}
+
+.submit input:hover {
+    background-color: #34738d;
+}

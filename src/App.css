@@ -12,12 +12,21 @@
 
 /* navbar */
 
+.navbar {
+    margin-top: 2vh;
+    margin-left: 34%;
+}
+
 .navbar .nav {
-    width: 35%;
+    text-align: center;
+    align-items: center;
+    width: max-content;
     padding: 10px;
     border-radius: 25px;
     background-color: #8bc5d5;
     box-shadow: 5px 2px 9px #9ee1f3;
+    position: fixed;
+    z-index: 2;
 }
 
 .navbar .link {
@@ -27,6 +36,7 @@
     margin: 0 18px;
     transition: 0.7s ease-in;
     width: max-content;
+    cursor: pointer;
 }
 
 .navbar .link:focus {
@@ -100,8 +110,17 @@
     padding: 40px;
 }
 
-.skills {
+/* About */
+
+.about {
     margin-top: 15vh;
+}
+
+.about h1 {
+    text-transform: capitalize;
+    border-bottom: var(--hover) solid 3px;
+    padding: 10px 0;
+    width: max-content;
 }
 
 .skills h2 {
@@ -213,6 +232,7 @@
     margin: 10px 0;
 }
 
+
 .contact .contact-in p {
     font-size: 20px;
     margin: 0 10px 0 0;
@@ -223,7 +243,7 @@
     background-color: var(--secont-color);
 }
 
-.contact .btn:hover {
+.contact .btn:hover  {
     border: 1px solid #fff;
     text-align: center;
     background-color: var(--main);
@@ -243,12 +263,14 @@
     cursor: copy;
 }
 
-.contact .contact-margin-col-img {
-    margin-top: 15vh;
+footer .copyRight {
+    margin-top: 30px;
+    text-align: center;
+
 }
 
-.contact img {
-    width: 100%;
-    border-radius: 25%;
-    padding: 0 40px;
+footer .copyRight span {
+    color: var(--main);
+    font-weight: 800;
+    display: inline-block;
 }
