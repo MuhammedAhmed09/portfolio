@@ -13,8 +13,7 @@
 /* navbar */
 
 .navbar {
-    margin-top: 2vh;
-    margin-left: 34%;
+    align-items: center;
 }
 
 .navbar .nav {
@@ -25,8 +24,6 @@
     border-radius: 25px;
     background-color: #8bc5d5;
     box-shadow: 5px 2px 9px #9ee1f3;
-    position: fixed;
-    z-index: 2;
 }
 
 .navbar .link {
