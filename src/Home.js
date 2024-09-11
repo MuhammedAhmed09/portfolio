@@ -33,7 +33,7 @@ const Home = () => {
             <Container className='about'>
                 <div>
                     <h1>about me</h1>
-                    <h5>Who I am ? I'm Muhammed Ahmed . I'm from Egypt / El-Beheara / Kafr-Eldawar. I'm interested in Coding , Traveling and Languages.</h5> 
+                    <h5>Who I am ? I'm Muhammed Ahmed . I'm from Egypt / El-Beheara / Kafr-Eldawar. I'm interesting in Coding , Traveling and Learning Languages.</h5> 
                     <div className='skills'>
                             <h2>my skills<span>.</span></h2>
                             <Row>
@@ -55,14 +55,27 @@ const Home = () => {
                 <Container className='projects'>
                     <h1>my projects<span>.</span></h1>
                     <Row className='up-projects'>
+                        <Col xs={12} md={7} className='border-project'>
+                            <img src={require("./Image/لقطة الشاشة 2024-09-11 223558.png")} alt='e-commerce'/>
+                            <a className='link' href="https://e-commerce2-nu-seven.vercel.app/"><h3>Bikers | E-Commerce<span><MdOutlineArrowOutward /></span></h3></a>
+                            <p>Built E-commerce in bootstrap , React JS , fetch API and CSS.</p>
+                            <br></br>
+                        </Col>
+                        <Col xs={12} md={4} className='border-project'>
+                            <img src={require("./Image/لقطة الشاشة 2024-09-11 222846.png")} alt='e-commerce'/>
+                            <a className='link' href="https://gym-website-seven-wheat.vercel.app/"><h3>GETFIT <span><MdOutlineArrowOutward /></span></h3></a>
+                            <p>wibsite in bootstrap , React JS and CSS.</p>
+                        </Col>
+                    </Row>
+                    <Row className='up-projects'>
                         <Col xs={12} md={4} className='border-project'>
                             <img src={require("./Image/bandicam 2024-07-28 16-28-14-000.jpg")} alt='e-commerce'/>
-                            <Link className='link' to="https://validation-form-tan.vercel.app/"><h3>Form Validate<span><MdOutlineArrowOutward /></span></h3></Link>
+                            <a className='link' href="https://validation-form-tan.vercel.app/"><h3>Form Validate<span><MdOutlineArrowOutward /></span></h3></a>
                             <p>Validate plate form in bootstrap , React JS and CSS.</p>
                         </Col>
                         <Col xs={12} md={7} className='border-project'>
                             <img src={require("./Image/bandicam 2024-07-28 16-25-07-883.jpg")} alt='e-commerce'/>
-                            <Link className='link' to="https://ecommerce-sigma-henna.vercel.app/"><h3>Fake api | eComerce <span><MdOutlineArrowOutward /></span></h3></Link>
+                            <a className='link' href="https://ecommerce-sigma-henna.vercel.app/"><h3>Fake api | eComerce <span><MdOutlineArrowOutward /></span></h3></a>
                             <p>E-commerce plate form in bootstrap , React JS , Fake Api and CSS.</p>
                             <br></br>
                         </Col>
@@ -70,13 +83,13 @@ const Home = () => {
                     <Row className='up-projects'>
                         <Col xs={12} md={7} className='border-project'>
                             <img src={require("./Image/bandicam 2024-07-28 16-22-03-882.jpg")} alt='e-commerce'/>
-                            <Link className='link' to="https://shop-with-bootstrap.vercel.app/"><h3>Time Zone | eComerce <span><MdOutlineArrowOutward /></span></h3></Link>
+                            <a className='link' href="https://shop-with-bootstrap.vercel.app/"><h3>Time Zone | eComerce <span><MdOutlineArrowOutward /></span></h3></a>
                             <p>E-commerce plate form in bootstrap , Javascript and CSS.</p>
                             <br></br>
                         </Col>
                         <Col xs={12} md={4} className='border-project'>
                             <img src={require("./Image/bandicam 2024-07-28 16-31-55-245.jpg")} alt='e-commerce'/>
-                            <Link className='link' to="https://to-do-list-psi-ecru.vercel.app/"><h3>To Do List <span><MdOutlineArrowOutward /></span></h3></Link>
+                            <a className='link' href="https://to-do-list-psi-ecru.vercel.app/"><h3>To Do List <span><MdOutlineArrowOutward /></span></h3></a>
                             <p>To do list plate form in bootstrap , React JS and CSS.</p>
                         </Col>
                     </Row>
