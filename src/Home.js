@@ -32,10 +32,11 @@ const Home = () => {
         <Element name='About'>
             <Container className='about'>
                 <div>
-                    <h1>about me</h1>
-                    <h5>Who I am ? I'm Muhammed Ahmed . I'm from Egypt / El-Beheara / Kafr-Eldawar. I'm interesting in Coding , Traveling and Learning Languages.</h5> 
+                    <h1>about me<span>.</span></h1>
+                    <h3>Who am I ?</h3>
+                    <h5> I'm Muhammed Ahmed.<br></br> I'm based in Egypt / El-Beheara / Kafr-Eldawar. <br></br>I'm interesting in Coding , Traveling and Learning Languages.</h5> 
                     <div className='skills'>
-                            <h2>my skills<span>.</span></h2>
+                            <h2>my skills</h2>
                             <Row>
                                 <li className='btn'>HTML</li>
                                 <li className='btn'>JavaScript</li>
@@ -125,7 +126,6 @@ const Home = () => {
                     <div className='copyRight'><p>Copyright &copy; 2023 All right reservd | This template is made by <span>Eng/ Muhammed Ahmed</span></p></div>
                 </footer>
             </Element>
-            
             </>
 
     

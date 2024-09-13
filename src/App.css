@@ -146,7 +146,7 @@
     width: max-content;
 }
 
-.skills h2 span {
+.about span {
     color: var(--hover);
 }
 
@@ -245,9 +245,9 @@
 .contact .contact-in {
     display: flex;
     text-align: center;
+    align-items: center;
     margin: 10px 0;
 }
-
 
 .contact .contact-in p {
     font-size: 20px;
@@ -259,7 +259,13 @@
     background-color: var(--secont-color);
 }
 
-.contact .btn:hover  {
+.contact .btn h6 {
+    padding: 10px;
+    transition: .8s;
+    border-radius: 5px;
+}
+
+.contact .btn h6:hover  {
     border: 1px solid #fff;
     text-align: center;
     background-color: var(--main);
@@ -267,26 +273,28 @@
 }
 
 .contact .contact-in b {
-    padding: 10px 10px 0 10px;
+    padding: 10px;
+    transition: .8s;
+    border-radius: 5px;
 }
 
 .contact .contact-in b:hover {
     border: 1px solid #fff;
     background-color: var(--main);
     color: #fff;
-    padding: 10px 10px 0 10px;
-    border-radius: 5px;
     cursor: copy;
 }
 
 footer .copyRight {
     margin-top: 30px;
     text-align: center;
-
+    color: #fff;
+    background-color: var(--main);
 }
 
 footer .copyRight span {
-    color: var(--main);
     font-weight: 800;
     display: inline-block;
+    color: #fff;
+    padding: 30px;
 }

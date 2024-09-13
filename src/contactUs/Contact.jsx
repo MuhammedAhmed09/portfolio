@@ -35,6 +35,7 @@ const ContactUs = () => {
     };
 
 
+
     return (
         <div className='all-contact'>
             <form onSubmit={onSubmit}>
@@ -42,18 +43,18 @@ const ContactUs = () => {
                 <Row className='name'>
                     <Col lg={6} md={6} sm={12}>
                         <h6>first name</h6>
-                        <input name='firstName' type='text' required/>
+                        <input name='firstName' type='text'/>
                     </Col>
                     <Col lg={6} md={6} sm={12}>
                         <h6>last name</h6>
-                        <input name='lastName' type='text' required/>
+                        <input name='lastName' type='text'/>
                     </Col>
                 </Row>
                 
                 <Row className='email'>
                     <Col>
                         <h6>email address</h6>
-                        <input name='email' type='text'/>
+                        <input name='email' type='text' required/>
                     </Col>
                 </Row>
 
