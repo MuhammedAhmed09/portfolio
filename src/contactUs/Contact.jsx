@@ -29,7 +29,8 @@ const ContactUs = () => {
                 text: 'Message sent successfully!',
                 icon: 'success',
                 confirmButtonText: 'Ok'
-            })
+            });
+            event.target.reset();
         }
     };
 
@@ -45,14 +46,14 @@ const ContactUs = () => {
                     </Col>
                     <Col lg={6} md={6} sm={12}>
                         <h6>last name</h6>
-                        <input name='lastName' type='text' />
+                        <input name='lastName' type='text' required/>
                     </Col>
                 </Row>
                 
                 <Row className='email'>
                     <Col>
                         <h6>email address</h6>
-                        <input name='email' type='text' required/>
+                        <input name='email' type='text'/>
                     </Col>
                 </Row>
 

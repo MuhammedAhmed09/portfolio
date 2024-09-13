@@ -1,9 +1,11 @@
 import React from 'react'
 import { Container, Nav, Navbar } from 'react-bootstrap'
-import { Link } from 'react-scroll'
+import { Link } from 'react-scroll';
+
 
 
 const NavBar = () => {
+
 
     return (
         <>
@@ -20,6 +22,7 @@ const NavBar = () => {
             </Navbar.Collapse>
         </Container>
         </Navbar>
+
         </>
     )
 }

@@ -43,6 +43,24 @@
     width: max-content;
 } 
 
+#btnScroll {
+    border: none;
+    background-color: var(--hover);
+    color: #fff;
+    border-radius: 100%;
+    padding: 0 10px 10px;
+    font-size: 20px;
+    position: fixed;
+    right: 5%;
+    bottom: 3%;
+    z-index: 999;
+    display: none;
+}
+
+#btnScroll:hover {
+    background-color: var(--main);
+}
+
 /* homepage */
 .home {
     margin-top: 15vh;
