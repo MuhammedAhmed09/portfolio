@@ -105,11 +105,11 @@ const Home = () => {
                             <p className='main-paragraph'>Looking to partner or work together? Reach out through the form and I'll get back to you in the next 48 hours.</p>
                             <div className='contact-in'>
                                 <p><FaInstagram /></p>
-                                <Link className='btn' to="https://www.instagram.com/ba7r___._/"><h6>instagram <span><MdOutlineArrowOutward /></span></h6></Link>
+                                <a className='btn' href="https://www.instagram.com/ba7r___._/"><h6>instagram <span><MdOutlineArrowOutward /></span></h6></a>
                             </div>
                             <div className='contact-in'>
                                 <p><FaLinkedinIn /></p>
-                                <Link className='btn' to="https://www.linkedin.com/in/muhammad-a-ragab-a29078307/"><h6>linkedin <span><MdOutlineArrowOutward /></span></h6></Link>
+                                <a className='btn' href="https://www.linkedin.com/in/muhammad-a-ragab-a29078307/"><h6>linkedin <span><MdOutlineArrowOutward /></span></h6></a>
                             </div>
                             <div className='contact-in'>
                                 <p><FaPhoneAlt /></p>
