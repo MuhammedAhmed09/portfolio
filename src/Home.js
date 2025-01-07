@@ -23,7 +23,7 @@ const Home = () => {
                         <Link className='btn btn-about'  to="Projects" smooth={true} duration={500}>browse projcts</Link>
                     </Col>
                     <Col lg={5} sm={10}>
-                        <img src={require("./Image/IMG_6899.JPG")} alt='My-Photo' />
+                        <img src={require("./Image/IMG_1586.JPG")} alt='My-Photo' />
                     </Col>
                 </Row>
             </Container>
