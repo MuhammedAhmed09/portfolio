@@ -7,8 +7,7 @@ import { GoChevronUp } from "react-icons/go";
 
 
 function App() {
-
-
+  
   window.onscroll = function (){
 
     if( window.scrollY >= 190) {
@@ -23,9 +22,6 @@ function App() {
       document.getElementById('btnScroll').style.display = 'none';
     }
   }
-  
-
-
 
   return (
     <BrowserRouter>
